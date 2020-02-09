@@ -6,4 +6,4 @@ L'idée c'est de combiner géomatiquet programmation pour faire des pages web sy
 
 WIP
 
-TODO : nettoyer et compléte ce readme des bêtises d'Alban
+TODO : nettoyer ce readme des bêtises d'Alban et éventuellement le compléter, ou alors on s'en fout.
