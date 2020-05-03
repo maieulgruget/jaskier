@@ -27,7 +27,8 @@ Stotipy est une bibliothèque python qui simplifie l’accès aux outils spotify
 Branca permet la réalisation de popup HTML.
 # Jaskier en démo vidéo  
 Une vidéo présente l’application V1 et ses outils développés :
-https://veillecarto2-0.fr/wp-content/uploads/2020/04/20200408_231737.mp4
+https://veillecarto2-0.fr/2020/04/08/jaskier-de-la-musique-sur-une-carte/
+
 
 # Contexte
 Le milieu de la musique a subi de plein fouet une croissance numérique dans les années 2000. Les ventes de produits matérielles (CD, cassettes, DVD) ont drastiquement chuté et les recettes pour les auteurs avec.
