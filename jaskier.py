@@ -11,7 +11,7 @@ import os
 from folium.plugins import MarkerCluster
 from folium.plugins import FloatImage
 
-conf_file = os.path.join(os.path.dirname(__file__), '/conf.py')
+conf_file = os.path.join(os.path.dirname(__file__), 'conf.py')
 exec(open(conf_file).read())
 
 
@@ -87,7 +87,7 @@ def main():
     """
 
     # Open events json
-    filename = os.path.join(os.path.dirname(__file__), '/samples/seetgeek_concert_event300.json')
+    filename = os.path.join(os.path.dirname(__file__), 'samples/seetgeek_concert_event300.json')
     with open(filename, 'r') as f:
         distros_dict = json.load(f)
 
@@ -112,7 +112,7 @@ def main():
     
     folium.TileLayer('OpenStreetMap').add_to(m)
     folium.LayerControl().add_to(m)
-    m.save('output_map.html')
+    m.save(os.path.join(os.path.dirname(__file__), 'output_map.html'))
 
 
 
