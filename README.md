@@ -16,17 +16,18 @@ Spotify est un service suédois de streaming musical sous la forme de logiciel p
 # Installation (Linux)
 1. téléchargez ou clonez ce repository
 2. placez-vous dans le répertoire du repository 
- - `cd jaskier`
-3. Activez un environnement virtuel :
- - `pip3 install venv`
- - `python3 -m venv env`
- - `source env/bin/activate`
-4. Installez les modules pythons requis :
- - `pip install -r requirements.txt`
-5. Récuper vos identifiants Spotify. Rendez vous sur [My Dashboard](https://developer.spotify.com/dashboard/applications) pour obtenir vos identifiants (un _client id_ et un _client secret_).
-5. Dupliquez le fichier de configuration :
- - `cp conf.py.sample conf.py`
-6. Éditez ce fichier conf en y collant vos identifiants Spotify
+- `cd jaskier`
+3. Créez un environnement virtuel :
+- `sudo apt-get install python3-venv`
+- `python3 -m venv env`
+4. Activez l'environnement virtuel
+- `source env/bin/activate`
+5. Installez les modules pythons requis :
+- `pip install -r requirements.txt`
+6. Récuper vos identifiants Spotify. Rendez vous sur [My Dashboard](https://developer.spotify.com/dashboard/applications) pour obtenir vos identifiants (un _client id_ et un _client secret_).
+7. Dupliquez le fichier de configuration :
+- `cp conf.py.sample conf.py`
+8. Éditez ce fichier conf en y collant vos identifiants Spotify
 
 # Usage
 Exécutez le script python jaskier.py
